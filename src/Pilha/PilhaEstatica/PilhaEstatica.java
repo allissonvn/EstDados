@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package Pilha.PilhaEstatica;
+=======
+package PilhaEstatica;
+>>>>>>> 1382df7bf03ba059263c1b5256454c00f7219d0f
 
 public class PilhaEstatica implements Empilhavel {
     private int topo;

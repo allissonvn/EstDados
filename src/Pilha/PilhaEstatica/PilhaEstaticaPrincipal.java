@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 package Pilha.PilhaEstatica;
 
 import Pilha.PilhaEstatica.PilhaEstatica;
+=======
+package PilhaEstatica;
+>>>>>>> 1382df7bf03ba059263c1b5256454c00f7219d0f
 
 public class PilhaEstaticaPrincipal {
     public static void main(String[] args) {

@@ -29,6 +29,12 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Users\eland\AppData\Local\Programs\Git\cmd\git.exe" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -95,7 +101,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743448945950</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sexto Commit">
+      <option name="closed" value="true" />
+      <created>1751502638634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751502638634</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Sexto Commit">
+      <option name="closed" value="true" />
+      <created>1751502684832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751502684832</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Sete Commit">
+      <option name="closed" value="true" />
+      <created>1751502762797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751502762797</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primero commit" />
     <MESSAGE value="Sexto Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sexto Commit" />
+    <MESSAGE value="Sete Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sete Commit" />
   </component>
 </project>

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package Pilha.PilhaOne;
+=======
+package PilhaOne;
+>>>>>>> 1382df7bf03ba059263c1b5256454c00f7219d0f
 
 class Pilha {
     private int[] elementos; // Array para armazenar os elementos da pilha
@@ -59,7 +63,11 @@ class Pilha {
         if (estaVazia()) {
             System.out.println("A pilha está vazia.");
         } else {
+<<<<<<< HEAD
             System.out.print("Pilha.PilhaEstatica.PilhaEstatica.PilhaOne.Pilha: ");
+=======
+            System.out.print("PilhaOne.Pilha: ");
+>>>>>>> 1382df7bf03ba059263c1b5256454c00f7219d0f
             for (int i = 0; i <= topo; i++) {
                 System.out.print(elementos[i] + " ");
             }

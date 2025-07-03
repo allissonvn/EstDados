@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package Pilha.PilhaOne;
+=======
+package PilhaOne;
+>>>>>>> 1382df7bf03ba059263c1b5256454c00f7219d0f
 
 public class Main {
     public static void main(String[] args) {
