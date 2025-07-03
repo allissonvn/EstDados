@@ -1,4 +1,4 @@
-package PilhaEstatica;
+package Pilha.PilhaEstatica;
 
 public class PilhaEstatica implements Empilhavel {
     private int topo;

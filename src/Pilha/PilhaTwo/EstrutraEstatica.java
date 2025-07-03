@@ -1,4 +1,4 @@
-package PilhaTwo;
+package Pilha.PilhaTwo;
 
 public class EstrutraEstatica {
 }

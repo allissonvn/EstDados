@@ -1,4 +1,4 @@
-package PilhaOne;
+package Pilha.PilhaOne;
 
 class Pilha {
     private int[] elementos; // Array para armazenar os elementos da pilha
@@ -59,7 +59,7 @@ class Pilha {
         if (estaVazia()) {
             System.out.println("A pilha está vazia.");
         } else {
-            System.out.print("PilhaOne.Pilha: ");
+            System.out.print("Pilha.PilhaEstatica.PilhaEstatica.PilhaOne.Pilha: ");
             for (int i = 0; i <= topo; i++) {
                 System.out.print(elementos[i] + " ");
             }

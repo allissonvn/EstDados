@@ -1,4 +1,4 @@
-package PilhaEstatica;
+package Pilha.PilhaEstatica;
 public interface Empilhavel {
     void empilhar(Object elemento);
     Object desempilhar();

@@ -1,4 +1,6 @@
-package PilhaEstatica;
+package Pilha.PilhaEstatica;
+
+import Pilha.PilhaEstatica.PilhaEstatica;
 
 public class PilhaEstaticaPrincipal {
     public static void main(String[] args) {
