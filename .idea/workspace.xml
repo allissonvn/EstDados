@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e5dafee-02b4-4f0b-9be7-53b4f3a7f387" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EstDados.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pilha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fila/FilaDinamicaGenerica/Enfileiravel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila/FilaDinamicaGenerica/Enfileiravel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fila/FilaDinamicaGenerica/FilaDinamicaDuplaTerminacaoGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila/FilaDinamicaGenerica/FilaDinamicaDuplaTerminacaoGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fila/FilaDinamicaGenerica/FilaDinamicaDuplaTerminacaoGenericaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila/FilaDinamicaGenerica/FilaDinamicaDuplaTerminacaoGenericaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fila/FilaDinamicaGenerica/NoDuplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila/FilaDinamicaGenerica/NoDuplo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordencao/Bubblesort/BubblesortDinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordencao/Bubblesort/BubblesortDinamico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordencao/Bubblesort/BubblesortDinamicoPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordencao/Bubblesort/BubblesortDinamicoPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordencao/Bubblesort/NoDuplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordencao/Bubblesort/NoDuplo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordencao/Bubblesort/Ordenavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordencao/Bubblesort/Ordenavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordencao/Insertionsort/InsertionsortDinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordencao/Insertionsort/InsertionsortDinamico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordencao/Insertionsort/InsertionsortDinamicoPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordencao/Insertionsort/InsertionsortDinamicoPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordencao/Insertionsort/NoDuplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordencao/Insertionsort/NoDuplo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordencao/Insertionsort/Ordenavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordencao/Insertionsort/Ordenavel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +130,87 @@
       <option name="project" value="LOCAL" />
       <updated>1751502762797</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Oito Commit">
+      <option name="closed" value="true" />
+      <created>1751590774006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751590774006</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Nono Commit">
+      <option name="closed" value="true" />
+      <created>1752195779036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752195779036</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Decimo Commit">
+      <option name="closed" value="true" />
+      <created>1752195850694</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752195850694</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Decimo Primeiro Commit">
+      <option name="closed" value="true" />
+      <created>1752196008031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752196008031</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Decimo Segundo Commit">
+      <option name="closed" value="true" />
+      <created>1752196069003</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752196069003</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Decimo Terceiro Commit">
+      <option name="closed" value="true" />
+      <created>1752282931390</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752282931390</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Decimo Quarto Commit">
+      <option name="closed" value="true" />
+      <created>1752282993838</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752282993838</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Decimo Quinto Commit">
+      <option name="closed" value="true" />
+      <created>1752283409505</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752283409505</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Decimo Sexto Commit">
+      <option name="closed" value="true" />
+      <created>1752283502251</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752283502251</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Decimo Sexto Commit">
+      <option name="closed" value="true" />
+      <created>1752546860146</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1752546860146</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +228,15 @@
     <MESSAGE value="Primero commit" />
     <MESSAGE value="Sexto Commit" />
     <MESSAGE value="Sete Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sete Commit" />
+    <MESSAGE value="Oito Commit" />
+    <MESSAGE value="Nono Commit" />
+    <MESSAGE value="Decimo Commit" />
+    <MESSAGE value="Decimo Primeiro Commit" />
+    <MESSAGE value="Decimo Segundo Commit" />
+    <MESSAGE value="Decimo Terceiro Commit" />
+    <MESSAGE value="Decimo Quarto Commit" />
+    <MESSAGE value="Decimo Quinto Commit" />
+    <MESSAGE value="Decimo Sexto Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decimo Sexto Commit" />
   </component>
 </project>
