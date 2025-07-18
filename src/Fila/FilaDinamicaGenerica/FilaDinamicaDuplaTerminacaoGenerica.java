@@ -188,7 +188,7 @@ public class FilaDinamicaDuplaTerminacaoGenerica<T> implements Enfileiravel<T> {
         return quantidade;
     }
 
-    @Override
+
     public int capacidade() {
         return capacidade;
     }

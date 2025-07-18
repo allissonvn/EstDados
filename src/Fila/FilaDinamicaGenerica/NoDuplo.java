@@ -1,4 +1,5 @@
 package Fila.FilaDinamicaGenerica;
+
 /**
  * Classe que representa um nó duplamente encadeado.
  * Esta classe é utilizada para implementar estruturas de dados
@@ -6,7 +7,7 @@ package Fila.FilaDinamicaGenerica;
  *
  * @param <T> o tipo do dado armazenado no nó
  * @author Allisson de Almeida Viana
- * @version 1.0
+ * @version 1.1
  */
 public class NoDuplo<T> {
 
@@ -19,11 +20,22 @@ public class NoDuplo<T> {
     /** Referência para o próximo nó */
     private NoDuplo<T> proximo;
 
+    /**
+     * Construtor padrão que cria um nó com todos os atributos nulos.
+     */
     public NoDuplo() {
+        this(null);
     }
 
+    /**
+     * Construtor que cria um nó com o dado especificado.
+     *
+     * @param dado o dado a ser armazenado no nó
+     */
     public NoDuplo(T dado) {
         this.dado = dado;
+        this.anterior = null;
+        this.proximo = null;
     }
 
     /**
@@ -38,7 +50,7 @@ public class NoDuplo<T> {
     /**
      * Define o dado a ser armazenado no nó.
      *
-     * @param dado o novo dado
+     * @param dado o novo dado (pode ser nulo)
      */
     public void setDado(T dado) {
         this.dado = dado;
@@ -47,7 +59,7 @@ public class NoDuplo<T> {
     /**
      * Retorna a referência para o nó anterior.
      *
-     * @return o nó anterior
+     * @return o nó anterior ou null se não existir
      */
     public NoDuplo<T> getAnterior() {
         return anterior;
@@ -56,7 +68,7 @@ public class NoDuplo<T> {
     /**
      * Define a referência para o nó anterior.
      *
-     * @param anterior o novo nó anterior
+     * @param anterior o novo nó anterior (pode ser nulo)
      */
     public void setAnterior(NoDuplo<T> anterior) {
         this.anterior = anterior;
@@ -65,7 +77,7 @@ public class NoDuplo<T> {
     /**
      * Retorna a referência para o próximo nó.
      *
-     * @return o próximo nó
+     * @return o próximo nó ou null se não existir
      */
     public NoDuplo<T> getProximo() {
         return proximo;
@@ -74,9 +86,19 @@ public class NoDuplo<T> {
     /**
      * Define a referência para o próximo nó.
      *
-     * @param proximo o novo próximo nó
+     * @param proximo o novo próximo nó (pode ser nulo)
      */
     public void setProximo(NoDuplo<T> proximo) {
         this.proximo = proximo;
+    }
+
+    /**
+     * Retorna uma representação em string do nó.
+     *
+     * @return string representando o nó
+     */
+    @Override
+    public String toString() {
+        return "NoDuplo{" + "dado=" + dado + '}';
     }
 }
