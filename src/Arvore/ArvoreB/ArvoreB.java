@@ -1,4 +1,4 @@
-package Arvore;
+package Arvore.ArvoreB;
 
 /**
  * Implementação de uma Árvore B genérica.

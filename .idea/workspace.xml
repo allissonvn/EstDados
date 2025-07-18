@@ -60,7 +60,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/eland/OneDrive/Documentos/JAVA/JAVA Projects/EstDados&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eland/OneDrive/Documentos/JAVA/JAVA Projects/Spotify-com-Estruturas-de-Dados-master&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -210,7 +210,79 @@
       <option name="project" value="LOCAL" />
       <updated>1752546860146</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Decimo Setimo Commit">
+      <option name="closed" value="true" />
+      <created>1752546896366</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1752546896366</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Decimo Oitavo Commit">
+      <option name="closed" value="true" />
+      <created>1752546937189</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752546937189</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Decimo Nono Commit">
+      <option name="closed" value="true" />
+      <created>1752547021138</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1752547021138</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Vigesimo Commit">
+      <option name="closed" value="true" />
+      <created>1752633246489</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1752633246489</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Vigesimo Primeiro Commit">
+      <option name="closed" value="true" />
+      <created>1752633403141</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1752633403141</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Vigesimo Segundo Commit">
+      <option name="closed" value="true" />
+      <created>1752633579797</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1752633579797</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Vigesimo Terceiro Commit">
+      <option name="closed" value="true" />
+      <created>1752719239824</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1752719239824</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Vigesimo Quarto Commit">
+      <option name="closed" value="true" />
+      <created>1752719280525</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1752719280525</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Vigesimo Quinto Commit">
+      <option name="closed" value="true" />
+      <created>1752719329090</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1752719329090</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +309,15 @@
     <MESSAGE value="Decimo Quarto Commit" />
     <MESSAGE value="Decimo Quinto Commit" />
     <MESSAGE value="Decimo Sexto Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decimo Sexto Commit" />
+    <MESSAGE value="Decimo Setimo Commit" />
+    <MESSAGE value="Decimo Oitavo Commit" />
+    <MESSAGE value="Decimo Nono Commit" />
+    <MESSAGE value="Vigesimo Commit" />
+    <MESSAGE value="Vigesimo Primeiro Commit" />
+    <MESSAGE value="Vigesimo Segundo Commit" />
+    <MESSAGE value="Vigesimo Terceiro Commit" />
+    <MESSAGE value="Vigesimo Quarto Commit" />
+    <MESSAGE value="Vigesimo Quinto Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vigesimo Quinto Commit" />
   </component>
 </project>

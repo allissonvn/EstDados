@@ -2,7 +2,7 @@ package Fila.FilaDinamicaGenerica;
 import java.util.NoSuchElementException;
 
 /**
- * Implementação de uma fila dinâmica dupla terminacão genérica.
+ * Implementação de uma fila dinâmica dupla terminação genérica.
  * Esta classe implementa uma fila que pode armazenar elementos de qualquer tipo,
  * permitindo operações tanto no início quanto no final da fila.
  *
@@ -13,7 +13,7 @@ import java.util.NoSuchElementException;
 public class FilaDinamicaDuplaTerminacaoGenerica<T> implements Enfileiravel<T> {
 
     private int quantidade;
-    private int tamanho;
+    private int capacidade;
     private NoDuplo<T> ponteiroInicio;
     private NoDuplo<T> ponteiroFim;
 
@@ -21,8 +21,11 @@ public class FilaDinamicaDuplaTerminacaoGenerica<T> implements Enfileiravel<T> {
         this(10);
     }
 
-    public FilaDinamicaDuplaTerminacaoGenerica(int tamanho) {
-        this.tamanho = tamanho;
+    public FilaDinamicaDuplaTerminacaoGenerica(int capacidade) {
+        if (capacidade <= 0) {
+            throw new IllegalArgumentException("Capacidade deve ser maior que zero");
+        }
+        this.capacidade = capacidade;
         this.quantidade = 0;
         this.ponteiroInicio = null;
         this.ponteiroFim = null;
@@ -31,7 +34,7 @@ public class FilaDinamicaDuplaTerminacaoGenerica<T> implements Enfileiravel<T> {
     @Override
     public void enfileirarInicio(T dado) {
         if (estaCheia()) {
-            throw new NoSuchElementException("Fila Cheia!");
+            throw new IllegalStateException("Fila Cheia!");
         }
 
         NoDuplo<T> novoNo = new NoDuplo<>(dado);
@@ -50,7 +53,7 @@ public class FilaDinamicaDuplaTerminacaoGenerica<T> implements Enfileiravel<T> {
     @Override
     public void enfileirarFim(T dado) {
         if (estaCheia()) {
-            throw new NoSuchElementException("Fila Cheia!");
+            throw new IllegalStateException("Fila Cheia!");
         }
 
         NoDuplo<T> novoNo = new NoDuplo<>(dado);
@@ -138,7 +141,7 @@ public class FilaDinamicaDuplaTerminacaoGenerica<T> implements Enfileiravel<T> {
 
     @Override
     public boolean estaCheia() {
-        return quantidade == tamanho;
+        return quantidade == capacidade;
     }
 
     @Override
@@ -180,10 +183,14 @@ public class FilaDinamicaDuplaTerminacaoGenerica<T> implements Enfileiravel<T> {
         return sb.toString();
     }
 
-    // Novos métodos implementados na versão 1.1
     @Override
     public int tamanho() {
         return quantidade;
+    }
+
+    @Override
+    public int capacidade() {
+        return capacidade;
     }
 
     @Override
@@ -195,9 +202,13 @@ public class FilaDinamicaDuplaTerminacaoGenerica<T> implements Enfileiravel<T> {
 
     @Override
     public boolean contem(T dado) {
+        if (dado == null) {
+            throw new IllegalArgumentException("Dado não pode ser nulo");
+        }
+
         NoDuplo<T> atual = ponteiroInicio;
         while (atual != null) {
-            if (atual.getDado().equals(dado)) {
+            if (dado.equals(atual.getDado())) {
                 return true;
             }
             atual = atual.getProximo();

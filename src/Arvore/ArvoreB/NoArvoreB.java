@@ -1,4 +1,4 @@
-package Arvore;
+package Arvore.ArvoreB;
 
 import java.util.ArrayList;
 import java.util.List;
